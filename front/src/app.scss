@@ -1,0 +1,19 @@
+@use "./assets/styles/variables" as vars;
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcf9f7;
+  padding: 1.5rem;
+  color: vars.$dark-color;
+  position: relative;
+}
+@media screen and (min-width: vars.$desktop) {
+  .app {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding: 1.5rem 5rem;
+  }
+}
