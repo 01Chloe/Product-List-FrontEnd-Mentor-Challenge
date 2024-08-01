@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux"
 import "../assets/styles/order-modal.scss"
 import PropTypes from "prop-types"
-import OrderConfirmIcon from "../assets/images/icon-order-confirmed.svg"
+import OrderConfirmIcon from "../../public/images/icon-order-confirmed.svg"
 import { resetOrder } from "../redux/productSlice"
 
 const OrderModal = ({ toggleModal, setModalIsOpen }) => {

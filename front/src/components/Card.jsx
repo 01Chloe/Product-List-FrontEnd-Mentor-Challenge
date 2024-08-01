@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import "../assets/styles/card.scss"
-import CartIcon from "../assets/images/icon-add-to-cart.svg"
+import CartIcon from "../../public/images/icon-add-to-cart.svg"
 import { useDispatch, useSelector } from "react-redux"
 import { addToCart, removeOneToCart } from "../redux/productSlice"
 import { useEffect, useState } from "react"

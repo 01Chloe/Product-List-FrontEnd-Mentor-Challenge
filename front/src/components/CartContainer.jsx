@@ -1,8 +1,8 @@
 import { useSelector, useDispatch } from "react-redux"
-import EmptyCartIcon from "../assets/images/illustration-empty-cart.svg"
+import EmptyCartIcon from "../../public/images/illustration-empty-cart.svg"
 import "../assets/styles/cart-container.scss"
 import { removeToCart } from "../redux/productSlice"
-import CarbonNeutralIcon from "../assets/images/icon-carbon-neutral.svg"
+import CarbonNeutralIcon from "../../public/images/icon-carbon-neutral.svg"
 import PropTypes from "prop-types"
 
 const CartContainer = ({ toggleModal }) => {
